@@ -8,7 +8,7 @@ export default function HeroSection() {
           Discover the Life of the Prophet &#65018;
         </h1>
         <div className="mt-8 text-center">
-          <p className="text-[20px]">
+          <p className="text-base text-justify md:text-center p-4">
             Dive deep into the life and teachings of the Prophet Muhammad
             &#65018; with our engaging and educational Seerah Quiz! Test your
             knowledge, learn new insights, and challenge yourself with questions
@@ -22,9 +22,9 @@ export default function HeroSection() {
         <div className="text-center ">
           <a
             href="/quiz"
-            className="bg-white border-2 border-transparent text-neutral-800 rounded px-4 py-2 mt-4 hover:bg-gray-200 transition-colors capitalize w-32 block hover:border-white"
+            className="bg-white border-2 border-transparent text-neutral-800 rounded px-4 py-2 mt-4 hover:bg-gray-200 transition-colors capitalize w-38 block hover:border-white"
           >
-            quiz
+            Get Started with Quiz
           </a>
         </div>
       </div>
